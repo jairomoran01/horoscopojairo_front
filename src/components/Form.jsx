@@ -13,7 +13,7 @@ function Form({ callback }) {
 
         try {
             // Realizar la solicitud POST al backend
-            const response = await fetch('http://localhost:4000/api/login', {
+            const response = await fetch('http://horoscopojairo-back.vercel.app/api/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
