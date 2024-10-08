@@ -12,7 +12,7 @@ function ChangePassword() {
 
         try {
             // Enviar la solicitud POST para cambiar la contraseña
-            const response = await fetch('http://horoscopojairo-back.vercel.app/api/change-password', {
+            const response = await fetch('https://horoscopojairo-back.vercel.app/api/change-password', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

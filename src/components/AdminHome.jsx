@@ -31,7 +31,7 @@ function AdminHome({user}){
 
     function handleClick(e){
         e.preventDefault();
-        fetch(`http://horoscopojairo-back.vercel.app/api/${signoEditar}`, {
+        fetch(`https://horoscopojairo-back.vercel.app/api/${signoEditar}`, {
             method: 'PATCH',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify({

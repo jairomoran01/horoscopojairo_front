@@ -8,7 +8,7 @@ function CreateAccount() {
   const handleCreateAccount = (event) => {
     event.preventDefault();
 
-    fetch('http://horoscopojairo-back.vercel.app/api/create-account', {
+    fetch('https://horoscopojairo-back.vercel.app/api/create-account', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
